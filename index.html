@@ -2,15 +2,25 @@
 <html>
     <head>
         <title>Lesson 5</title>
+        <style>
+            table, td, th {
+                border:1px, solid;
+                border-collapse:collapse;
+            }
+        </style>
     </head>
     <body>
         <table>
+            <thead>
             <tr>
                 <th>Emrin</th>
                 <th> Mbiemri</th>
                 <th> Moshen</th> 
-                <th>Email-in</th>   
+                <th>Email-in</th>
+                 
             </tr>
+            </thead>
+            <tbody>
             <tr>
                 <td>Denik</td>
                 <td>Zariq</td>
@@ -23,8 +33,68 @@
                 <td>14</td>
                 <td>arisheqiri@gmail.com</td>
             </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">Table footer</td>
+            </tr>
+        </tfoot>  
         </table>
-        <P>g</P>
+        
 
+        <table>
+            <tr>
+                <th>Emri</th>
+                <td>Trim Krasniqi</td>
+                <td>Gert çalaj</td>
+
+            </tr>
+            <tr>
+                <th rowspan="2">Email-in</th>
+                <td>trimkrasniqi@gmail.com</td>
+                <td rowspan="2">gertiçalaj@gmail.com</td>
+
+            </tr>
+            <tr>
+                <td>trimkrasniqi@gmail.com</td>
+                
+            </tr>
+        </table>
+        <ul>
+            <li>Marshi i Uçk-se</li>
+            <li>Mora Fjale</li>
+            <li>Fjalet e qiririt</li>
+        </ul>
+        <ol>
+            <li>Marshi i Uçk-se</li>
+            <li>Mora Fjale</li>
+            <li>Fjalet e qiririt</li>
+        </ol>    
+        <dl>
+            <dt>Hamburger</dt>
+            <dd>buke, mish, sallate, keqap, majonez</dd>
+            <dt>Pica</dt>
+            <dd> proshute, bru, keqap, domate</dd>
+        </dl>
+        <ul type="square">
+            <li>Marshi i Uçk-se</li>
+            <li>Mora Fjale</li>
+            <li>Fjalet e qiririt</li>
+        </ul>
+        <ol>
+            <li>gerti</li>
+            <li>ai</li>
+        </ol>
+        <ol start="3">
+            <li>lopa</li>
+            <li>kali</li>
+          </ol>
+        <h1 contenteditable="true">Lorem, ipsum.</h1>
+        <p contenteditable="true">Lorem, ipsum.</p>  
+        <div contenteditable="true">Lorem, ipsum.</div>
+        
+        <p> E kemi nje takim ne ora <time> 16:20</time> per project prosonale</p>
+        <p> E kemi nje takim ne ora <time datetime="2024-10-02 16:20"> 16:20</time> per project prosonale</p>
+          
     </body>
     </html>
